@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>KWIC Viewer (Vite)</title>
+  <script type="module" src="/main.js" defer></script>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>KWIC Viewer with Metadata (Vite)</h1>
+
+  <div>
+    <input type="text" id="searchInput" placeholder="Enter keyword">
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <table id="resultsTable">
+    <thead>
+      <tr>
+        <th>File ID</th>
+        <th>Line #</th>
+        <th>Author</th>
+        <th>Title</th>
+        <th>Left</th>
+        <th>Keyword</th>
+        <th>Right</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</body>
+</html>

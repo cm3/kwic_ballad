@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  margin: 2em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+}
+th {
+  background: #eee;
+}
