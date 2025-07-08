@@ -16,8 +16,8 @@ async function loadCsv(url) {
 }
 
 async function init() {
-  textData = await loadCsv('/merged_text_lines.csv');
-  const metaArray = await loadCsv('/merged_metadata.csv');
+  textData = await loadCsv('/kwic_ballad/merged_text_lines.csv');
+  const metaArray = await loadCsv('/kwic_ballad/merged_metadata.csv');
 
   metaArray.forEach(m => {
     metadata[m.file_id] = m;
